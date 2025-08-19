@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./delivery.css">
+    <title>URBAN_STYLE</title>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAZlBMVEUFBwb///8AAABRUVGjo6NUVFRaWlrp6emqqqoAAwCdnZ38/Pzb29v09PTKysrX2NfBwcErKytycnJISEiBgYG6urpra2u0tLQ4OTkaGhrS0tKTk5N6enqJioojIyNeX14yMjIQEhGCViMJAAACkUlEQVRoge2ZW3eqMBBGnQ8kQMB6t+Ct/P8/2YREbKi258EJ66zOfoFFXGyZTO6zmSAIgiAIgiAIwv8MisnMaIBp1AUOajmbRo4tER0juoEhzMiMe4/vBVzqVVleBt28ug73zTH94JVjR3S4+94GHUqiltmdE5WD7/ol5GeiHa+7wPrQDb4jpffqPpz4WrtLJSsffBWp+3dvnZoj43B979+KjfaBxrsmnfj7j3ruit/3L5djTXUvx0XVjdOY9PKJh0750pWi9avlSLRa9W83kW5tYIHauMlkOnCpqOrTAE2ls9d/eJetb25qL6YnWVg1VeZuX/dXW7q/cvSywOls3m+jSqR3uSKHylt7sTE3P9ky9W5IF2bgOtJjdkC3zLmaOPBGbfVEbQLQUsU3rOHjqdixYezZkP6oZot474b+yc07ivb9ySSfbVv5NXvGteGs7X+BSZ3MQ7IGTTZ6ljB1LWpcwXMk40dK3OJ+gTvNb6Rt4H7rSxSj+2v7LgN32T9rOd1f/kUauFO4AVbcf8ldTeYuZktlYF6LPnablRrjGPqLOxbi/gtul8jFFG4cU8PZyuO7+7U+bTGF281b7L5CfPe2F5Eyi/DY7sJu7FkW3928q5LZMEzazeOxe7u0LEpGeefSjTaj+drGPdYXxuBj7qv8ELgPfvY8j7L+1oHbbwgwRtxS+F01Cty3FGQ+uUGnnrhVx9/KE/3QrZlW3qH89NB9ijGODl1M4M7jHNP52XDgrmId0mGlR269ijZzwXrkfvl2/U/yPHAzb+qF+C7Gu9k7lRC3g+/cKl5le3mmvZvhfORX+dm7z/FPoQsse/dyirN/oM6Q1dOc/CPZYBNjBHkoB8vppyAIgiAIgiAIwp/gEwm7G3yJyODCAAAAAElFTkSuQmCC" alt="logo"></a>
+            <ul>
+                
+                <li><a href="pagina.html">PRENDAS</a></li>
+                <li><a href="delivery.html">Delivery</a></li>
+                <li><a href="/registrarse.html">REGISTRARSE</a></li>
+                <li><a href="iniciarsesion.html">INICIAR SESION</a></li>
+                
+                
+            </ul>
+        </nav>
+        <h1 class="centered-phrase">¡Tu delivery lo llevamos volando!</h1>
+        <p class="sub-phrase">Vistete a la moda como un Artista</p>
+        <h2 class="rectangle-title">Ingresa tu dirección</h2>
+        <div class="rectangle">
+            <div class="input-container">
+                <textarea id="direccion" class="input-box" placeholder="Calle y número de puerta"></textarea>
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="btnListo" class="input-button" disabled>Listo</button>
+        </div>
+    </div>
+    <footer>
+        <div class="cuerpo-pie">
+            <div class="verdadero-pie">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHsAAAB7CAMAAABjGQ9NAAAAZlBMVEUFBwb///8AAABRUVGjo6NUVFRaWlrp6emqqqoAAwCdnZ38/Pzb29v09PTKysrX2NfBwcErKytycnJISEiBgYG6urpra2u0tLQ4OTkaGhrS0tKTk5N6enqJioojIyNeX14yMjIQEhGCViMJAAACkUlEQVRoge2ZW3eqMBBGnQ8kQMB6t+Ct/P8/2YREbKi258EJ66zOfoFFXGyZTO6zmSAIgiAIgiAIwv8MisnMaIBp1AUOajmbRo4tER0juoEhzMiMe4/vBVzqVVleBt28ug73zTH94JVjR3S4+94GHUqiltmdE5WD7/ol5GeiHa+7wPrQDb4jpffqPpz4WrtLJSsffBWp+3dvnZoj43B979+KjfaBxrsmnfj7j3ruit/3L5djTXUvx0XVjdOY9PKJh0750pWi9avlSLRa9W83kW5tYIHauMlkOnCpqOrTAE2ls9d/eJetb25qL6YnWVg1VeZuX/dXW7q/cvSywOls3m+jSqR3uSKHylt7sTE3P9ky9W5IF2bgOtJjdkC3zLmaOPBGbfVEbQLQUsU3rOHjqdixYezZkP6oZot474b+yc07ivb9ySSfbVv5NXvGteGs7X+BSZ3MQ7IGTTZ6ljB1LWpcwXMk40dK3OJ+gTvNb6Rt4H7rSxSj+2v7LgN32T9rOd1f/kUauFO4AVbcf8ldTeYuZktlYF6LPnablRrjGPqLOxbi/gtul8jFFG4cU8PZyuO7+7U+bTGF281b7L5CfPe2F5Eyi/DY7sJu7FkW3928q5LZMEzazeOxe7u0LEpGeefSjTaj+drGPdYXxuBj7qv8ELgPfvY8j7L+1oHbbwgwRtxS+F01Cty3FGQ+uUGnnrhVx9/KE/3QrZlW3qH89NB9ijGODl1M4M7jHNP52XDgrmId0mGlR269ijZzwXrkfvl2/U/yPHAzb+qF+C7Gu9k7lRC3g+/cKl5le3mmvZvhfORX+dm7z/FPoQsse/dyirN/oM6Q1dOc/CPZYBNjBHkoB8vppyAIgiAIgiAIwp/gEwm7G3yJyODCAAAAAElFTkSuQmCC" class="logo-pie">
+                
+                <ul class="footer-menu-container">
+                   
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/2048px-2021_Facebook_icon.svg.png" style="width: 25px;">
+                    <li class="menu-iten">URBAN_STYLE</li>
+                    <img src="https://logotipoz.com/wp-content/uploads/2021/10/instagram-png.png" style="width: 25px;">
+                    <li class="menu-iten">URBAN_STYLE</li>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" style="width: 25px;">
+                    <li class="menu-iten">981752502 - 967241204</li>
+                </ul>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        var btnListo = document.getElementById('btnListo');
+        var direccionInput = document.getElementById('direccion');
+
+        btnListo.addEventListener('click', function() {
+            var direccion = direccionInput.value.trim();
+            
+            if (direccion === '') {
+                alert('Dirección no escrita');
+            } else {
+                alert('Registro exitoso');
+            }
+            
+            direccionInput.value = '';
+        });
+
+        direccionInput.addEventListener('input', function() {
+            if (direccionInput.value.trim() !== '') {
+                btnListo.disabled = false;
+            } else {
+                btnListo.disabled = true;
+            }
+        });
+    </script>
+</body>
+</html>
